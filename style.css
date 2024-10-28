@@ -1,0 +1,130 @@
+.background-container{
+    background-image: url('assests/Ardent.jpg'); /* Replace with your image path */
+    background-size: cover; /* Cover the entire page */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Fix the image while scrolling */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    height: 60vh;
+    /* padding-top: 12%; */
+    
+}
+.background-container2{
+    background-image: url('assests/Ardent5.jpg'); /* Replace with your image path */
+    background-size: cover; /* Cover the entire page */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Fix the image while scrolling */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    height: 40vh;
+    padding-top: 7%;
+    
+}
+.service-card {
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+.icon-circle {
+    font-size: 40px;
+    color: white;
+    background-color: #f0b000;
+    padding: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.bg-yellow {
+    background-color: #f0b000;
+    color: white;
+}
+.bg-white {
+    background-color: white;
+    color: #333;
+}
+.counter {
+    text-align: center;
+    color: #333;
+}
+.counter-icon {
+    font-size: 40px;
+    color: gray;
+}
+.counter-number {
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+}
+.counter-label {
+    font-size: 14px;
+    color: gray;
+    text-transform: uppercase;
+}
+.portfolio-section {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+.portfolio-section h2 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.portfolio-section p {
+    color: #666;
+    margin-bottom: 40px;
+}
+.portfolio-filter {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 40px;
+}
+.portfolio-filter li {
+    display: inline;
+    margin: 0 15px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+}
+.portfolio-filter li:hover {
+    text-decoration: underline;
+}
+.portfolio-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+.portfolio-item:hover img {
+    transform: scale(1.1);
+}
+.progress-bar-custom {
+    background-color: #333;
+}
+.contact-info {
+    background-color: #f8f9fa;
+    padding: 40px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.contact-info .info-box {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+.contact-info .info-box img {
+    width: 30px;
+    margin-right: 15px;
+}
+.contact-form {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+
