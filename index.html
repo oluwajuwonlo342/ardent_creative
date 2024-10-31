@@ -189,7 +189,67 @@
     background-color: #ffcc00;
     color: #fff;
 }
-
+.pricing-header {
+            /* background-color: #ffcc00; */
+            color: #000;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        .pricing-card {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+            text-align: center;
+            margin-top: 1rem;
+        }
+        .pricing-card h3 {
+            color: #ffcc00;
+        }
+        .price {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #ffcc00;
+        }
+        .price::before {
+            content: '£';
+            margin-right: 4px;
+        }
+        .pricing-header {
+            /* background-color: #0066ff; */
+            color: #000;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        .social-icons img {
+            width: 30px;
+            margin: 0 5px;
+        }
+        .pricing-card {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+            text-align: center;
+            margin-top: -2rem;
+        }
+        .pricing-card h3 {
+            color: #ffcc00;
+        }
+        .price {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #ffcc00;
+        }
+    
+        .price small {
+            font-size: 1rem;
+            color: #666;
+        }
+        .pricing-card ul {
+            list-style-type: none;
+            padding: 0;
+        }
 </style>
 <body class="body bg-light">
 
@@ -232,6 +292,9 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing">Pricing</a>
                     </li>
                     <li class="nav-item">
                         <a class="btn" href="#">Get Started</a>
@@ -435,6 +498,246 @@
         </div>
     </div>
 </div>
+
+<div id="pricing">
+    <div class="pricing-header">
+        <h2>Price For Web Design</h2>
+        <p>Select a package that elevates your brand with a unique web design experience.</p>
+    </div>
+    
+    <!-- Pricing Cards -->
+    <div class="container">
+        <div class="row justify-content-center text-center">
+            <!-- Basic Package -->
+            <div class="col-md-4 mb-4">
+                <div class="pricing-card">
+                    <h3>Basic Package</h3>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li>✔ Up to 5 pages</li>
+                        <li>✔ Simple layout, responsive design</li>
+                        <li>✔ Use of pre-made templates</li>
+                        <li>✔ Basic SEO setup (meta tags, alt text)</li>
+                        <li>✔ Client provides content</li>
+                        <li>✔ Includes 1 round of revisions</li>
+                    </ul>
+                    <div class="price">300</div>
+                </div>
+            </div>
+    
+            <!-- Standard Package -->
+            <div class="col-md-4 mb-4">
+                <div class="pricing-card">
+                    <h3>Standard Package</h3>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li>✔ 5-10 pages</li>
+                        <li>✔ Custom design with some advanced elements</li>
+                        <li>✔ Responsive across all devices</li>
+                        <li>✔ Integration with CMS (WordPress, Shopify, etc.)</li>
+                        <li>✔ Includes 2 rounds of revisions</li>
+                        <li>✔ SEO optimization</li>
+                    </ul>
+                    <div class="price">700</div>
+                </div>
+            </div>
+    
+            <!-- Premium Package -->
+            <div class="col-md-4 mb-4">
+                <div class="pricing-card">
+                    <h3>Premium Package</h3>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li>✔ 10+ pages</li>
+                        <li>✔ Full custom design (unique branding, complex layouts)</li>
+                        <li>✔ Advanced features (e-commerce, booking system)</li>
+                        <li>✔ Full CMS integration with training</li>
+                        <li>✔ SEO and speed optimization, security setup</li>
+                        <li>✔ Includes 3 rounds of revisions</li>
+                    </ul>
+                    <div class="price">1200</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="pricing-header">
+        <h2>Price For Graphic Design</h2>
+        <p>Select a package that brings your vision to life with stunning graphic design.</p>
+    </div>
+    
+    <!-- Pricing Cards -->
+    <div class="container">
+        <div class="row justify-content-center text-center">
+            <!-- Basic Package -->
+            <div class="col-md-4 mb-4">
+                <div class="pricing-card">
+                    <h3>Basic Package</h3>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li>✔ 2-3 pages (bi-fold or tri-fold)</li>
+                        <li>✔ Simple, clean layout</li>
+                        <li>✔ Includes 1 round of revisions</li>
+                        <li>✔ Client provides content (text and images)</li>
+                    </ul>
+                    <div class="price">40</div>
+                </div>
+            </div>
+    
+            <!-- Standard Package -->
+            <div class="col-md-4 mb-4">
+                <div class="pricing-card">
+                    <h3>Standard Package</h3>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li>✔ 4-6 pages</li>
+                        <li>✔ Custom graphics or icons</li>
+                        <li>✔ Includes 2 rounds of revisions</li>
+                        <li>✔ Moderate content layout and design</li>
+                        <li>✔ Client provides most of the content</li>
+                    </ul>
+                    <div class="price">80</div>
+                </div>
+            </div>
+    
+            <!-- Premium Package -->
+            <div class="col-md-4 mb-4">
+                <div class="pricing-card">
+                    <h3>Premium Package</h3>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li>✔ 8-12 pages</li>
+                        <li>✔ Custom graphics or icons</li>
+                        <li>✔ Includes 3 rounds of revisions</li>
+                        <li>✔ Moderate content layout and design</li>
+                        <li>✔ Client provides most of the content</li>
+                    </ul>
+                    <div class="price">120</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="pricing-header">
+        <h2>Price For Social Media Handling</h2>
+        <h3>Pricing (per platform)</h3>
+        <div class="social-icons">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Facebook_Logo_2023.png" alt="Facebook">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+        </div>
+        <p>Choose a social media plan that amplifies your brand's voice and engages your audience effectively.</p>
+    </div>
+    
+    <!-- Pricing Cards -->
+    <div class="container">
+        <div class="row justify-content-center text-center">
+            <!-- Basic Package -->
+            <div class="col-md-4 mb-4">
+                <div class="pricing-card">
+                    <h3>Basic Package</h3>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li>✔ 8 Posts per Month</li>
+                        <li>✔ Content Calendar Planning</li>
+                        <li>✔ Post Scheduling & Publishing</li>
+                        <li>✔ Monthly Performance Report</li>
+                        <li>✔ Hashtag Research</li>
+                    </ul>
+                    <div class="price">120<small>/mo</small></div>
+                </div>
+            </div>
+    
+            <!-- Standard Package -->
+            <div class="col-md-4 mb-4">
+                <div class="pricing-card">
+                    <h3>Standard Package</h3>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li>✔ 12 Posts per Month</li>
+                        <li>✔ Content Calendar Planning</li>
+                        <li>✔ Post Scheduling & Publishing</li>
+                        <li>✔ Basic Engagement</li>
+                        <li>✔ Monthly Performance Report</li>
+                        <li>✔ Hashtag Research and Implementation</li>
+                    </ul>
+                    <div class="price">200<small>/mo</small></div>
+                </div>
+            </div>
+    
+            <!-- Premium Package -->
+            <div class="col-md-4 mb-4">
+                <div class="pricing-card">
+                    <h3>Premium Package</h3>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li>✔ 16 Posts per Month</li>
+                        <li>✔ Content Calendar Planning</li>
+                        <li>✔ Post Scheduling & Publishing</li>
+                        <li>✔ Basic Engagement</li>
+                        <li>✔ Monthly Performance Report</li>
+                        <li>✔ Hashtag Research and Implementation</li>
+                    </ul>
+                    <div class="price">300<small>/mo</small></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="pricing-header">
+        <h2>Pricing (For up to 3 Platforms)</h2>
+        <p>Choose a social media plan that amplifies your brand's voice and engages your audience effectively.</p>
+    </div>
+    
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Basic Package -->
+            <div class="col-md-4">
+                <div class="card pricing-card">
+                    <h3 class="text-center">Basic Package</h3>
+                    <ul>
+                        <li>✔ 8 Posts per Month</li>
+                        <li>✔ Content Calendar Planning</li>
+                        <li>✔ Post Scheduling & Publishing</li>
+                        <li>✔ Monthly Performance Report</li>
+                        <li>✔ Hashtag Research</li>
+                    </ul>
+                    <div class="text-center">
+                        <p class="price">300/mo</p>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Standard Package -->
+            <div class="col-md-4">
+                <div class="card pricing-card">
+                    <h3 class="text-center">Standard Package</h3>
+                    <ul>
+                        <li>✔ 12 Posts per Month</li>
+                        <li>✔ Content Calendar Planning</li>
+                        <li>✔ Post Scheduling & Publishing</li>
+                        <li>✔ Basic Engagement</li>
+                        <li>✔ Monthly Performance Report</li>
+                        <li>✔ Hashtag Research and Implementation</li>
+                    </ul>
+                    <div class="text-center">
+                        <p class="price">500/mo</p>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Premium Package -->
+            <div class="col-md-4">
+                <div class="card pricing-card">
+                    <h3 class="text-center">Premium Package</h3>
+                    <ul>
+                        <li>✔ 16 Posts per Month</li>
+                        <li>✔ Content Calendar Planning</li>
+                        <li>✔ Post Scheduling & Publishing</li>
+                        <li>✔ Basic Engagement</li>
+                        <li>✔ Monthly Performance Report</li>
+                        <li>✔ Hashtag Research and Implementation</li>
+                    </ul>
+                    <div class="text-center">
+                        <p class="price">700/mo</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
 
 <div class="container team-section" id="team">
     <!-- Team Section Header -->
