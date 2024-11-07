@@ -523,9 +523,9 @@
       
         <!-- Country Selector -->
         <div class="text-center mb-4">
-          <label for="countrySelect">Choose your country:</label>
-          <select id="countrySelect" onchange="updatePrices()">
-            <option value="UK">UK</option>
+          <!-- <label for="countrySelect">Choose your country:</label> -->
+          <select id="countrySelect" onchange="updatePrices()" class="form-select w-auto" style="margin-left: 43%;">
+            <option value="UK">United Kingdom</option>
             <option value="Nigeria">Nigeria</option>
             <!-- Add more countries as needed -->
           </select>
@@ -600,7 +600,7 @@
         <h1 class="text-center">Pricing (per platform)</h1>
         <div class="text-center mb-4">
             <label for="countrySelect">Choose your country:</label>
-            <select id="countrySelect" class="form-control d-inline w-auto">
+            <select id="countrySelect1" class="form-control d-inline w-auto">
                 <option value="uk">United Kingdom</option>
                 <option value="nigeria">Nigeria</option>
             </select>
@@ -616,7 +616,7 @@
                     <p>Post Scheduling & Publishing</p>
                     <p>Monthly Performance Report</p>
                     <p>Hashtag Research</p>
-                    <h4 id="basicPrice">£120/mo</h4>
+                    <h4 id="basicPrice2">£120/mo</h4>
                 </div>
             </div>
             <!-- Standard Package -->
@@ -628,7 +628,7 @@
                     <p>Post Scheduling & Publishing</p>
                     <p>Basic Engagement</p>
                     <p>Monthly Performance Report</p>
-                    <h4 id="standardPrice">£200/mo</h4>
+                    <h4 id="standardPrice2">£200/mo</h4>
                 </div>
             </div>
             <!-- Premium Package -->
@@ -640,7 +640,7 @@
                     <p>Post Scheduling & Publishing</p>
                     <p>Basic Engagement</p>
                     <p>Monthly Performance Report</p>
-                    <h4 id="premiumPrice">£300/mo</h4>
+                    <h4 id="premiumPrice2">£300/mo</h4>
                 </div>
             </div>
         </div>
@@ -739,7 +739,7 @@
 </div>
 <script>
     // JavaScript to change prices based on country selection
-    document.getElementById("countrySelect").addEventListener("change", function() {
+    document.getElementById("countrySelect1").addEventListener("change", function() {
         var country = this.value;
 
         // Define pricing for each country
@@ -750,16 +750,16 @@
                 "premium": "£300/mo"
             },
             "nigeria": {
-                "basic": "₦70,000/mo",
-                "standard": "₦120,000/mo",
-                "premium": "₦180,000/mo"
+                "basic": "₦260,000/mo",
+                "standard": "₦441,300/mo",
+                "premium": "₦650,900/mo"
             }
         };
 
         // Update prices based on selected country
-        document.getElementById("basicPrice").textContent = prices[country].basic;
-        document.getElementById("standardPrice").textContent = prices[country].standard;
-        document.getElementById("premiumPrice").textContent = prices[country].premium;
+        document.getElementById("basicPrice2").textContent = prices[country].basic;
+        document.getElementById("standardPrice2").textContent = prices[country].standard;
+        document.getElementById("premiumPrice2").textContent = prices[country].premium;
     });
 </script>
 
@@ -773,9 +773,9 @@
         standardPrice = "£700";
         premiumPrice = "£1200";
       } else if (country === "Nigeria") {
-        basicPrice = "₦150,000";
-        standardPrice = "₦350,000";
-        premiumPrice = "₦600,000";
+        basicPrice = "₦550,900";
+        standardPrice = "₦1,520,500";
+        premiumPrice = "₦2,601,300";
       }
   
       document.getElementById("basicPrice").innerText = basicPrice;
@@ -791,9 +791,9 @@
 
     countrySelect.addEventListener("change", function() {
       if (countrySelect.value === "Nigeria") {
-        basicPrice.textContent = "₦23,000";
-        standardPrice.textContent = "₦46,000";
-        premiumPrice.textContent = "₦69,000";
+        basicPrice.textContent = "₦87,525";
+        standardPrice.textContent = "₦174,310";
+        premiumPrice.textContent = "₦261,800";
       } else {
         basicPrice.textContent = "£40";
         standardPrice.textContent = "£80";
